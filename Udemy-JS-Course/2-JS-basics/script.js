@@ -125,7 +125,7 @@ which is calculated using the formula: BMI = mass / height^2 = mass / (height * 
 
 GOOD LUCK 😀
 */
-
+/*
 var massMark = 45; //kg
 var heightMark = 1.69; //meters
 
@@ -138,4 +138,4 @@ console.log(BMIMark, BMIJohn);
 
 var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher thans John\'s? + markHigherBMI');
-
+*/
