@@ -127,10 +127,10 @@ GOOD LUCK 😀
 */
 /*
 var massMark = 45; //kg
-var heightMark = 1.69; //meters
+var heightMark = 2.00; //meters
 
-var massJohn = 92;
-var heightJohn = 1.69;
+var massJohn = 56;
+var heightJohn = 1.45;
 
 var BMIMark = massMark / (heightMark * heightMark);
 var BMIJohn = massJohn / (heightJohn * heightJohn);
