@@ -2,7 +2,7 @@
  Variable and data types
 */
 
-/*
+
 var firstName = 'John';
 console.log(firstName);
 
@@ -19,7 +19,7 @@ console.log(job);
 var _3years = 3;
 var johnMark = "Jpohn and Mark";
 var if = 23;
-*/
+
 
 /************************
  Variable mutation and type coercion
