@@ -24,7 +24,7 @@
 /************************
  Variable mutation and type coercion
 */
-
+/*
 var firstName = 'John';
 var age = 28;
 
@@ -47,7 +47,7 @@ alert(firstName + 'is a' + age + 'year old' + job
 
 var lastName = prompt ('What is his last Name?');
 console.log(firstName + ' ' + lastName);
-
+*/
 
 /*********************
  * Basic operators
