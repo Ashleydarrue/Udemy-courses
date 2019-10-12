@@ -23,6 +23,7 @@
 
 
 /************************
+ * Lesson 2
  Variable mutation and type coercion
 */
 /*
