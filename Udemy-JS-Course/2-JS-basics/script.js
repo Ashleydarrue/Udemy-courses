@@ -52,6 +52,7 @@ console.log(firstName + ' ' + lastName);
 */
 
 /*********************
+ * Lesson 3
  * Basic operators
  */
 
