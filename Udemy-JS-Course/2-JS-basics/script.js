@@ -82,7 +82,7 @@ console.log(firstName + ' ' + lastName);
 */
 
 /************************
- * Lesson 4s
+ * Lesson 4
  * Operator precedence
  */
 /*
@@ -115,6 +115,7 @@ console.log(x);
 */
 
 /*****************************
+ * Lesson 5
 * CODING CHALLENGE 1
 */
 
