@@ -86,12 +86,5 @@ console.log(firstName + ' ' + lastName);
  * Operator precedence
  */
 /*
- var now = 2018 ;
- var yearJohn = 1989;
- var fullAge = 18;
- 
- //Multiple operators
- var isFullAge = now - yearJohn >= fullAge; //true 
-console.log(isFullAge);
 
 */
