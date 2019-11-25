@@ -81,4 +81,13 @@ console.log(firstName + ' ' + lastName);
  console.log(typeof x);
 */
 
+// Sum of numbers from 1-10
+// let total = 0, count = 1;
+// while (count <= 10) {
+//   total += count;
+//   count += 1;
+// }
+// console.log(total);
+// // → 55
+
 
