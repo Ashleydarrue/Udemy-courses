@@ -88,6 +88,17 @@ console.log(firstName + ' ' + lastName);
 //   count += 1;
 // }
 // console.log(total);
-// // → 55
+//  → 55
 
+/*
+  Title:
+    Are the numbers in order?
+  Description:
+    In this Kata, your function receives an array of positive integers as input.
+    Your task is to determine whether the numbers are in ascending order.
+    For the purposes of this Kata, you may assume that all inputs are valid (i.e. arrays containing only positive integers with a length of at least 2).
 
+    //SOLUTION
+
+    // const inAscOrder = arr => arr.every((_, i) => i === 0 || arr[i] > arr[i - 1])
+*/
