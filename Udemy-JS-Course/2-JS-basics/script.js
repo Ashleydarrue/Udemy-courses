@@ -81,18 +81,18 @@ console.log(firstName + ' ' + lastName);
  console.log(typeof x);
 */
 
-// Sum of numbers from 1-10
-// let total = 0, count = 1;
-// while (count <= 10) {
-//   total += count;
-//   count += 1;
-// }
-// console.log(total);
-//  → 55
+// Task: Sum of numbers from 1-10
+/* let total = 0, count = 1;
+while (count <= 10) {
+  total += count;
+ count += 1;
+}
+ console.log(total);
+ */
+// → 55
 
 /*
-  Title:
-    Are the numbers in order?
+  Task: Are the numbers in order?
   Description:
     In this Kata, your function receives an array of positive integers as input.
     Your task is to determine whether the numbers are in ascending order.
@@ -105,8 +105,7 @@ console.log(firstName + ' ' + lastName);
 
 
 /*
-  Title:
-    Basic JS - Building a calculator
+  Task: Building a calculator
   Description:
     Let's build a calculator.
     This is very basic Javascript kata.
@@ -128,5 +127,28 @@ console.log(firstName + ' ' + lastName);
   divide: (x, y) => (y === 0 ? false : x / y),
 }
 
+    */
 
+
+
+    /*
+  Task: Calculating averages
+  Description:
+    Let's build a calculator that can calculate the average for an arbitrary number of arguments.
+    The test expects you to provide a Calculator object with an average method:
+    Calculator.average()
+    The test also expects that when you pass no arguments, it returns 0. The arguments are expected to be integers.
+    It expects Calculator.average(3,4,5) to return 4.
+
+    //SOLUTION
+    const Calculator = {
+  average() {
+    const numbers = [...arguments]
+    const totalNumbers = numbers.length
+
+    if (!totalNumbers) return 0
+
+    return numbers.reduce((total, value) => total + value, 0) / totalNumbers
+  },
+}
     */
