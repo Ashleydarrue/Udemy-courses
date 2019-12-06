@@ -297,3 +297,23 @@ const getNaughtyNames = people =>
   people.filter(({ wasNice }) => !wasNice).map(({ name }) => name)
 
   */
+
+  /*
+  Task:  Nickname Generator
+  Description:
+    Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
+    If the 3rd letter is a consonant, return the first 3 letters.
+    nickname("Robert") //=> "Rob"
+    nickname("Kimberly") //=> "Kim"
+    nickname("Samantha") //=> "Sam"
+    If the 3rd letter is a vowel, return the first 4 letters.
+    nickname("Jeannie") //=> "Jean"
+    nickname("Douglas") //=> "Doug"
+    nickname("Gregory") //=> "Greg"
+    If the string is less than 4 characters, return "Error: Name too short".
+
+    //SOLUTION
+    const nicknameGenerator = name =>
+  name.length <= 3 ? 'Error: Name too short' : /[aeiou]/i.test(name[2]) ? name.substring(0, 4) : name.substring(0, 3)
+
+  */
