@@ -317,3 +317,17 @@ const getNaughtyNames = people =>
   name.length <= 3 ? 'Error: Name too short' : /[aeiou]/i.test(name[2]) ? name.substring(0, 4) : name.substring(0, 3)
 
   */
+
+  /*
+  Task: Replace all items
+  Description:
+    Write function replaceAll (Python: replace_all) that will replace all occurrences of an item with another.
+    Python / JavaScript: The function has to work for strings and lists.
+
+    //Solution
+    const replaceAll = (seq, find, replace) =>
+  typeof seq === 'string'
+    ? [...seq].map(value => (value === find ? replace : value)).join('')
+    : seq.map(value => (value === find ? replace : value))
+
+    */
