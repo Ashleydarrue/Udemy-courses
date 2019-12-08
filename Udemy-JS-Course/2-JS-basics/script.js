@@ -331,3 +331,6 @@ const getNaughtyNames = people =>
     : seq.map(value => (value === find ? replace : value))
 
     */
+
+  /*Short Solution To sum of numbers from 1-10
+   console.log(sum(range(1, 10))); */
