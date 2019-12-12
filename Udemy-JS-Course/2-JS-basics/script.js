@@ -399,3 +399,26 @@ const elimination = arr =>
 
 
     */
+
+    /*
+  Task: Fizz / Buzz (IRONHACK ENTRANCE TEST)
+  Description:
+    Write a function that takes an integer and returns an array [A, B, C],
+    where A is the number of multiples of 3 (but not 5) below the given integer,
+    B is the number of multiples of 5 (but not 3) below the given integer
+    and C is the number of multiples of 3 and 5 below the given integer.
+
+    //SOLUTION
+    const solution = n =>
+  [...new Array(n).keys()].slice(1).reduce(
+    (result, number) => {
+      if (number % 15 === 0) result[2]++
+      else if (number % 3 === 0) result[0]++
+      else if (number % 5 === 0) result[1]++
+
+      return result
+    },
+    [0, 0, 0]
+  )
+
+    */
