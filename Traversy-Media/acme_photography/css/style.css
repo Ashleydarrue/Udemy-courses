@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
 
 body{
   font-family: 'Roboto Condensed', sans-serif;
@@ -27,7 +29,7 @@ img{
 }
 
 main {
-  max-width: 900px;
+  max-width: 1400px;
   margin: auto;
   box-shadow: 30px 0px 40px rgba(0,0,0,0.4), -30px 0px 40px rgba(0, 0, 0,0.4);
 }
@@ -48,11 +50,17 @@ main {
 }
 
 #landing-text h2 {
-  color: #888;
+  font-family: 'Anton', sans-serif;
+  color:#c68dd8;
+}
+
+#landing-text h3 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  margin-top: -26px;
 }
 
 #landing-image {
-  background: url(https://source.unsplash.com/dS-q7-zkD9c);
+  background: url(https://source.unsplash.com/WCPg9ROZbM0);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,6 +119,11 @@ footerh3 {
 /* Screen Sizes 500px and Up */
 
 @media(min-width: 500px){
+  #images{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
    #landing {
      display: flex;
      height: 100%;
