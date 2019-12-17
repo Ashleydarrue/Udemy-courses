@@ -326,11 +326,30 @@ async function  promiseHelloWorld() {
 
 */
 
-/*
+/* which are in ?
+
+function inArray(array1, array2) {
+  return array1
+    .filter(word1 => array2.some(word2 => word2.includes(word1)))
+    .sort()
+}
 
 */
 
-/*
+/* Title: Find the odd int
+
+function findOdd(array) {
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i]
+    let counter = 0
+
+    for (const newElement of array) {
+      if (newElement === element) counter++
+    }
+
+    if (counter % 2 !== 0) return element
+  }
+}
 
 */
 
