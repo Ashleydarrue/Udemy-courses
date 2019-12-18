@@ -384,6 +384,9 @@ const isToday = date => new Date().getDay() === date.getDay()
 
 */
 
-/*
+/* opposite Number
+function opposite(number) {
+  return -number
+}
 
 */
