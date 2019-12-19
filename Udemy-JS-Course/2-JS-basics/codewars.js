@@ -366,8 +366,8 @@ function longestConsec(strarr, k) {
 
 */
 
-/*
-
+/* Are there any arrows left?
+const anyArrows = arrows => arrows.some(arrow => !arrow.damaged)
 */
 
 /*
