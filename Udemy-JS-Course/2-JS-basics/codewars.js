@@ -370,7 +370,8 @@ function longestConsec(strarr, k) {
 const anyArrows = arrows => arrows.some(arrow => !arrow.damaged)
 */
 
-/*
+/* Are arrow functions odd?
+const odds = values => values.filter(value => value % 2)
 
 */
 
