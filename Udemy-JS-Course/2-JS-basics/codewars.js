@@ -375,8 +375,8 @@ const odds = values => values.filter(value => value % 2)
 
 */
 
-/*
-
+/* Hex to Decimal?
+    const hexToDec = hexString => parseInt(hexString, 16)
 */
 
 /*
