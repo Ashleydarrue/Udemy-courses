@@ -379,7 +379,8 @@ const odds = values => values.filter(value => value % 2)
     const hexToDec = hexString => parseInt(hexString, 16)
 */
 
-/*
+/*    Is the date today
+const isToday = date => new Date().getDay() === date.getDay()
 
 */
 
