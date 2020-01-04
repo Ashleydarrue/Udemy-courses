@@ -57,3 +57,12 @@ function solution(digits){
 }
 
 */
+
+/* Bumps in the Road
+function bump(str)
+{
+  return str.replace(/_/g, "").length > 15 ? "Car Dead" : "Woohoo!";
+}
+
+// one liner: const bump=x=>x.split('n').length>16?"Car Dead":"Woohoo!"
+*/
