@@ -66,3 +66,11 @@ function bump(str)
 
 // one liner: const bump=x=>x.split('n').length>16?"Car Dead":"Woohoo!"
 */
+
+/* Covfefe
+
+function covfefe(str){
+  if (str.includes("coverage")) return str.replace(/coverage/g,"covfefe")
+  return str+" covfefe"
+}
+*/
