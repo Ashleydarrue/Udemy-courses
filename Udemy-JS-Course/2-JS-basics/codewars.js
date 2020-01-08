@@ -81,3 +81,9 @@ function find_average(array) {
   return array.reduce((result, current) => result + current, 0) / array.length;
 }
 */
+
+/* find Something in an array
+var find = function(string, array) {
+  return array.includes(string)
+};
+*/
