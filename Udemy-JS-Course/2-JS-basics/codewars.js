@@ -398,3 +398,7 @@ function opposite(number) {
 //   for (let i = 1; i <= num; i++) result += i
 //   return result
 // }
+
+/* Remove the time
+const shortenToDate = longDate => longDate.split(',')[0]
+*/
