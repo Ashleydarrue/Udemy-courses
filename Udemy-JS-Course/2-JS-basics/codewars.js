@@ -402,3 +402,8 @@ function opposite(number) {
 /* Remove the time
 const shortenToDate = longDate => longDate.split(',')[0]
 */
+
+/* Get the mean of an array
+const getAverage = marks =>
+  Math.floor(marks.reduce((total, value) => total + value, 0) / marks.length)
+*/
