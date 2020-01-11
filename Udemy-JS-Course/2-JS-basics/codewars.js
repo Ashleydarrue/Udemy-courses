@@ -407,3 +407,12 @@ const shortenToDate = longDate => longDate.split(',')[0]
 const getAverage = marks =>
   Math.floor(marks.reduce((total, value) => total + value, 0) / marks.length)
 */
+
+
+/* Fake Binary
+const fakeBin = x =>
+  x
+    .split('')
+    .map(num => (Number(num) >= 5 ? 1 : 0))
+    .join('')
+*/
