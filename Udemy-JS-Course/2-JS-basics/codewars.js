@@ -416,3 +416,7 @@ const fakeBin = x =>
     .map(num => (Number(num) >= 5 ? 1 : 0))
     .join('')
 */
+
+/*  Plural
+const plural = n => n !== 1
+*/
