@@ -420,3 +420,7 @@ const fakeBin = x =>
 /*  Plural
 const plural = n => n !== 1
 */
+
+/* My head is at the wrong end! 
+const fixTheMeerkat = array => array.reverse()
+*/ 
