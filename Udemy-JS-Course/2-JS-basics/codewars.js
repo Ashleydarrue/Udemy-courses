@@ -440,3 +440,7 @@ const closeCompare = (a, b, margin = 0) => {
   return 1
 }
 */
+
+/*  isReallyNaN 
+const isReallyNaN = value => Number.isNaN(value)
+*/
