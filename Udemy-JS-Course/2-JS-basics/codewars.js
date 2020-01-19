@@ -454,3 +454,7 @@ function grader(score) {
   if (score >= 0.6) return 'D'
 }
  */
+
+ /* is integer safe to use?
+ const safeInteger = n => Number.isSafeInteger(n)
+ */
