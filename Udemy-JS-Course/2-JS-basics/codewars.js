@@ -457,4 +457,22 @@ function grader(score) {
 
  /* is integer safe to use?
  const safeInteger = n => Number.isSafeInteger(n)
+
  */
+
+/* finish the number guesser game
+class Guesser {
+  constructor(number, lives) {
+    this.number = number
+    this.lives = lives
+  }
+
+  guess(n) {
+    if (!this.lives) throw new Error('You have no more life')
+    if (n === this.number) return true
+
+    this.lives--
+    return false
+  }
+}
+*/
