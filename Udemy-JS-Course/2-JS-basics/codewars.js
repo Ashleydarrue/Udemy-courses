@@ -480,3 +480,10 @@ class Guesser {
 /*Decible Scale
 const dBScale = intensity => 10 * Math.log10(intensity / 10 ** -12)
 */
+/* Filter out the geese
+const gooseFilter = (birds) => {
+  const geese = new Set(['African', 'Roman Tufted', 'Toulouse', 'Pilgrim', 'Steinbacher'])
+
+  return birds.filter((bird) => !geese.has(bird))
+}
+*/
