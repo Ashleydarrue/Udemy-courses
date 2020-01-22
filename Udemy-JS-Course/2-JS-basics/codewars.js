@@ -487,3 +487,12 @@ const gooseFilter = (birds) => {
   return birds.filter((bird) => !geese.has(bird))
 }
 */
+
+/* Barking Mad
+function Dog(breed) {
+  this.breed = breed
+}
+Dog.prototype.bark = function() {
+  return 'Woof'
+}
+ */
