@@ -496,3 +496,9 @@ Dog.prototype.bark = function() {
   return 'Woof'
 }
  */
+
+ /* Convert a string to a number
+ function stringToNumber(str) {
+   return Number(str)
+ } 
+ */
