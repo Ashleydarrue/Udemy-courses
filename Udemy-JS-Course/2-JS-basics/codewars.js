@@ -512,9 +512,22 @@ Dog.prototype.bark = function() {
 }
   */
 
- /* */
+ /* Array Mash
+ const arrayMash = (array1, array2) => {
+  const result = []
+  for (let i = 0; i < array1.length; i++) result.push(array1[i], array2[i])
+  return result
+} */
 
- /* */
+ /* Batman Quotes
+ const getQuote = (quotes, hero) => {
+  const heroes = { B: 'Batman', R: 'Robin', J: 'Joker' }
+  const index = hero.match(/\d/g)
+  const heroParsed = heroes[hero[0]]
+
+  return `${heroParsed}: ${quotes[index]}`
+}
+ */
 
  /* */
 
