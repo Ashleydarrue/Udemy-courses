@@ -529,7 +529,19 @@ Dog.prototype.bark = function() {
 }
  */
 
- /* */
+ /* Character Counter
+ const lowerCase = string => string.toLowerCase()
+const validateWord = s =>
+  [...new Set(s)]
+    .map(char => {
+      const charRepetitions = [...s].reduce(
+        (total, charToCompare) => (lowerCase(char) === lowerCase(charToCompare) ? total + 1 : total),
+        0
+      )
+      return { char, charRepetitions }
+    })
+    .every(({ charRepetitions }, _, [firstChar]) => charRepetitions === firstChar.charRepetitions)
+     */
 
  /* */
 
