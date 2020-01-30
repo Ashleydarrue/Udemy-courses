@@ -543,7 +543,9 @@ const validateWord = s =>
     .every(({ charRepetitions }, _, [firstChar]) => charRepetitions === firstChar.charRepetitions)
      */
 
- /* */
+ /* All Unique
+ const hasUniqueChars = string => new Set(string).size === string.length 
+ */
 
  /* */
 
