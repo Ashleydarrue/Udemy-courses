@@ -547,7 +547,9 @@ const validateWord = s =>
  const hasUniqueChars = string => new Set(string).size === string.length 
  */
 
- /* */
+ /* Chain me
+ const chain = (input, fs) => fs.reduce((total, func) => func(total), input)
+ */
 
  /* */
 
