@@ -592,7 +592,22 @@ const validateWord = s =>
   }
 }*/
 
- /* */
+ /* Array array Array
+ const isNumber = value => typeof value === 'number'
+const isString = value => typeof value === 'string'
+const explode = x => {
+  let score = 'Void!'
+  const [firstElement, secondElement] = x
+  if (isNumber(firstElement) && isNumber(secondElement)) {
+    score = firstElement + secondElement
+  } else if (isNumber(firstElement)) {
+    score = firstElement
+  } else if (isNumber(secondElement)) {
+    score = secondElement
+  }
+  return isString(score) ? score : Array.from({ length: score }, () => x)
+}
+ */
 
  /* */
 
