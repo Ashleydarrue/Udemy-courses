@@ -609,7 +609,21 @@ const explode = x => {
 }
  */
 
- /* */
+ /* Find the longest gap
+ const gap = num => {
+  const binaries = [...num.toString(2)]
+  let longestGap = 0
+  let currentGap = 0
+  for (const binary of binaries) {
+    if (binary === '0') currentGap++
+    if (binary === '1') {
+      if (currentGap > longestGap) longestGap = currentGap
+      currentGap = 0
+    }
+  }
+  return longestGap
+} 
+ */
 
  /* */
 
