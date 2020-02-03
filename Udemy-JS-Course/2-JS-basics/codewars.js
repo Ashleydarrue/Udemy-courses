@@ -625,7 +625,13 @@ const explode = x => {
 } 
  */
 
- /* */
+ /* Case Swapping
+ const swap = str =>
+  str
+    .split('')
+    .map(element => (typeof element !== 'string' ? element : swapCase(element)))
+    .join('')
+     */
 
  /* */
 
