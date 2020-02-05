@@ -633,7 +633,13 @@ const explode = x => {
     .join('')
      */
 
- /* */
+ /* Find all Pairs
+ const duplicates = (array) => {
+  const repetitions = array.reduce((acc, number) => ({ ...acc, [number]: (acc[number] || 0) + 1 }), {})
+
+  return Object.entries(repetitions).reduce((total, [, repetitions]) => total + Math.floor(repetitions / 2), 0)
+}
+ */
 
  /* */
 
