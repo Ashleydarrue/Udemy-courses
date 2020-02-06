@@ -641,7 +641,16 @@ const explode = x => {
 }
  */
 
- /* */
+ /* MinMinMax
+ const minMinMax = array => {
+  const [smallest, largest] = [Math.min(...array), Math.max(...array)]
+
+  let minimumAbsent = smallest
+  while (array.includes(minimumAbsent)) minimumAbsent++
+
+  return [smallest, minimumAbsent, largest]
+}
+ */
 
  /* */
 
