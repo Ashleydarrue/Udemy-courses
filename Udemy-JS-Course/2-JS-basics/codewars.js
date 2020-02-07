@@ -652,7 +652,22 @@ const explode = x => {
 }
  */
 
- /* */
+ /* Digital cypher
+ const alphabet = [...'abcdefghijklmnopqrstuvwxyz']
+const encode = (str, n) => {
+  let count = -1
+  const nString = String(n)
+  const nRepeated = Array.from({ length: str.length }, () => {
+    count++
+    if (count === nString.length) count = 0
+    return Number(nString[count])
+  })
+  const result = [...str]
+    .map(char => alphabet.indexOf(char) + 1)
+    .map((char, index) => char + nRepeated[index])
+  return result
+} 
+ */
 
  /* */
 
