@@ -669,6 +669,38 @@ const encode = (str, n) => {
 } 
  */
 
+ /* Find factors of a number
+ const factors = number => {
+  const factorsFound = Array.from({ length: number + 1 }, (_, index) => index)
+    .filter(index => number % index === 0)
+    .sort((a, b) => b - a)
+
+  return factorsFound.length === 0 ? -1 : factorsFound
+}
+ */
+
+ /* */
+
+ /* */
+
+ /* */
+
+ /* */
+
+ /* */
+
+ /* */
+ 
+ /* */
+
+ /* */
+
+ /* */
+
+ /* */
+
+ /* */
+
  /* */
 
  /* */
