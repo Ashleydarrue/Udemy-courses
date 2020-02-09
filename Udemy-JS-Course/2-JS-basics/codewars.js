@@ -679,7 +679,21 @@ const encode = (str, n) => {
 }
  */
 
- /* */
+ /* Keypad horror
+ const phoneToKeypad = {
+  1: 7,
+  2: 8,
+  3: 9,
+  4: 4,
+  5: 5,
+  6: 6,
+  7: 1,
+  8: 2,
+  9: 3,
+  0: 0,
+}
+const computerToPhone = numbers => [...numbers].map(number => phoneToKeypad[number]).join('')
+*/
 
  /* */
 
