@@ -695,7 +695,13 @@ const encode = (str, n) => {
 const computerToPhone = numbers => [...numbers].map(number => phoneToKeypad[number]).join('')
 */
 
- /* */
+ /* Long Solution 
+ const dbSort = a => {
+  const numbers = a.filter(el => typeof el === 'number').sort((a, b) => a - b)
+  const strings = a.filter(el => typeof el === 'string').sort((a, b) => a.localeCompare(b))
+  return [...numbers, ...strings]
+}
+*/
 
  /* */
 
