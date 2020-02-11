@@ -703,7 +703,13 @@ const computerToPhone = numbers => [...numbers].map(number => phoneToKeypad[numb
 }
 */
 
- /* */
+ /* Birthday I- Cake
+ const getTotalFallenCandles = (y) => {
+  return y
+    .split('')
+    .reduce((acc, char, index) => acc + (index % 2 === 0 ? char.charCodeAt() : char.charCodeAt() - 96), 0)
+}
+ */
 
  /* */
 
