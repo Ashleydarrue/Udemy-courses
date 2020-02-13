@@ -115,3 +115,48 @@ const nextItem = (xs, item) => {
 }
 
 */
+
+/* Baby, repeat 
+function babyRepeat(babble){
+  return babble+' '+babble
+}
+*/
+
+/* Average Scores 
+ function average(scores) {
+    return Math.round(scores.reduce((first,next)=>(first+next),0)/scores.length)
+}
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
+*/
