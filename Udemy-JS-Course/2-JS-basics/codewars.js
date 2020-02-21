@@ -147,8 +147,11 @@ function alternateSqSum(arr){
 
 */
 
-/*
-
+/* are they square
+var isSquare = function(arr){
+  if (arr.length===0) return undefined;
+  return arr.every(v=>Math.sqrt(v).toString().length<=v.toString().length)
+}
 */
 
 /*
