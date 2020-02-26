@@ -167,10 +167,18 @@ function candies(kids){
 
   return kids.reduce((total, kid) => total + maxCandies - kid, 0)
 }
-
 */
 
-/*
+/* Bingo Card
+function getCard()
+{
+  return [...'BINGO'].reduce((a, b, i) => {
+    let s = new Set;
+    while (s.size < 5) s.add(~~(Math.random() * 15 + 1 + i * 15))
+    let nums = [...s]
+    return a.concat([...Array(b == 'N' ? 4 : 5)].map(_ => b + nums.pop()))
+  }, [])
+}
 
 */
 
