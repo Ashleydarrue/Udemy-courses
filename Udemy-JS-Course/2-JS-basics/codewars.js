@@ -182,6 +182,9 @@ function getCard()
 
 */
 
+
+// work from here down
+
 /* Build a pile of cubes
  function findNb(m) {
   let i = 1;
@@ -194,6 +197,42 @@ function getCard()
 
   return m === 0 ? count : -1;
 }
+*/
+
+/* a is for apple
+function a(n){
+  if (n%2!==0) n--
+  if (n<=2) return ''
+  let str = ''
+  for (let i=0;i<n;i++){
+   if (i===0){
+     str+=' '.repeat(n-i-1)+'A'+' '.repeat(n-i-1)+'\n'
+   }else if (i===1){
+     str+=' '.repeat(n-i-1)+'A'+' '+'A'+' '.repeat(n-i-1)+'\n'
+   }else if (i===(n/2)){
+     str+=' '.repeat(n-i-1)+'A'+' A'.repeat(n/2)+' '.repeat(n-i-1)+'\n'
+   }else {
+     str+=' '.repeat(n-i-1)+'A'+' '.repeat(i*2-1)+'A'+' '.repeat(n-i-1)+'\n'
+   }
+ }
+  return str.slice(0,-1)
+}
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
+*/
+
+/*
+
 */
 
 /*
