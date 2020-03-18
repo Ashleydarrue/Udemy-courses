@@ -230,8 +230,15 @@ function a(n){
 }
 */
 
-/*
-
+/* Free pizza
+function pizzaRewards(customers, minOrders, minPrice) {
+  let arr = [];
+  for (let i in customers) {
+    if (customers[i].filter(v => v >= minPrice).length >= minOrders)
+      arr.push(i);
+  }
+  return arr;
+}
 */
 
 /*
