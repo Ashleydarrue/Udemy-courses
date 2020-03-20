@@ -241,7 +241,19 @@ function pizzaRewards(customers, minOrders, minPrice) {
 }
 */
 
-/*
+/* Mix fruit juice
+function mixFruit(arr) {
+  let reg = ["banana", "orange", "apple", "lemon", "grapes"];
+  let spec = ["avocado", "strawberry", "mango"];
+  return Math.round(
+    arr.reduce((a, b) => {
+      b = b.toLowerCase();
+      if (reg.includes(b)) return a + 5;
+      if (spec.includes(b)) return a + 7;
+      return a + 9;
+    }, 0) / arr.length
+  );
+}
 
 */
 
