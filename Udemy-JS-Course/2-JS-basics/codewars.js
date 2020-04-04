@@ -277,8 +277,12 @@ function letterChange(str) {
 }
 */
 
-/*
-
+/* Mirror , Mirror
+function evilTwin(obj) {
+  let twin = Object.create(obj);
+  twin.hasGoatee = true;
+  return twin;
+}
 */
 
 /*
