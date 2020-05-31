@@ -319,7 +319,10 @@ function bonusTime(salary, bonus) {
 }
 */
 
-/*
+/* A promise is a promise
+async function  promiseHelloWorld() {
+  return await 'Hello World!'
+}
 
 */
 
